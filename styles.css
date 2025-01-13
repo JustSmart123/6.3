@@ -8,21 +8,20 @@ body {
 header {
     background: #3E4E50;
     color: white;
-    padding: 10px 20px;
+    padding: 10px;
     text-align: center;
 }
 
-nav ul {
+ul {
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
+li {
     display: inline;
     margin-right: 10px;
 }
-
-nav ul li a {
+a {
     color: white;
     text-decoration: none;
 }
@@ -34,10 +33,10 @@ section {
     border-radius: 5px;
 }
 
-section img {
-    width: 100%;
+img {
+    
     max-width: 400px;
-    margin: 10px 0;
+    margin: 10px;
     border-radius: 5px;
 }
 
@@ -45,5 +44,5 @@ footer {
     text-align: center;
     background: #333;
     color: white;
-    padding: 10px 0;
+    padding: 10px;
 }
