@@ -1,8 +1,7 @@
-function shareMovie() {
-    const url = window.location.href;
+function sharePage() {
     navigator.share({
         title: 'Топ фільмів',
-        text: 'Подивись, який цікавий фільм я знайшов!',
-        url: url
-    }).catch(console.error);
+        url: window.location.href
+    });
 }
+
